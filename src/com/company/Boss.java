@@ -1,7 +1,17 @@
 package com.company;
 
-public class Boss {
-    private int bossHealth;
+public class Boss extends GameEntity {
+    private Weapon weapon;
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+    /*private int bossHealth;
     private int bossesDamage;
     private String bossesSuper;
 
@@ -28,5 +38,5 @@ public class Boss {
 
     public void setBossesSuper(String bossesSuper) {
         this.bossesSuper = bossesSuper;
-    }
+    }*/
 }

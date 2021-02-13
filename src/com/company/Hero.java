@@ -1,7 +1,23 @@
 package com.company;
 
-public class Hero {
-    private int heroesHealth;
+public class Hero extends GameEntity {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*private int heroesHealth;
     private int heroesDamage;
     private String heroesSuper;
 
@@ -26,5 +42,5 @@ public class Hero {
 
     public String getHeroesSuper() {
         return heroesSuper;
-    }
+    }*/
 }
